@@ -1,60 +1,90 @@
-from asyncore import read
-from gettext import find
 from hashlib import new
-from importlib.resources import path
-from os import remove
-from unicodedata import name
 import pandas as pd
 import pathlib
+from pandas import DataFrame
+import json
 
 def get_path_xlsx():
-    file = pathlib.Path('./').glob('./output_files/*.xlsx').__next__()
+    file = pathlib.Path('./').glob('./input_files/xlsx/*.xlsx').__next__()
     return './' + str(file.relative_to('./'))
 
 
-def to_lower(data):
-    return str(data).lower()
-
-
+def to_lower(table):
+    for i in range(0,len(table.columns)):
+        table[table.columns[i]] = table[table.columns[i]].str.lower()
+    
+    return table
+        
 # Verifica se existe algum item na lista sem informações e os remove
 def remove_empty_items(colection):
     for item in colection:
-        if(item == ',' or item == ''):
+
+        if(item == ',' or item == '' or len(item) == 0):
             colection.remove(item)
 
     return colection
 
-def unameless():
+def extract_column(table, name_col,value_init_row):
+    index_init_row = table.index[table[name_col].str.find(value_init_row) >= 0].to_list()[0]
+    col = table[name_col].to_list()
+    new_col = []
+
+    for i in range(index_init_row,len(col)):
+        if(type(col[i] != 'str')):
+            col[i] = str(col[i])
+
+        if(col[i] != 'nan'):
+            new_col.append(col[i])
+        elif(col[i] == 'nan' and col[i-1] != 'nan'):
+            new_col.append('|')       
+
+    new_col = (',').join(new_col).split('|')
+    
+    for i in range(0,len(new_col)):
+        new_col[i] = new_col[i].split(',')
+        new_col[i] = remove_empty_items(new_col[i])
+    
+    return new_col
+    
+    
+
+def create_json():
+
+    def slice_list(list,start,end):
+        slc = slice(start,len(list))
+        new_list =  list[slc]
+        return new_list
+
+    def create_dict(keys, values):
+        dic = {}
+        values = slice_list(values,len(values) - len(keys),len(values))   
+        
+        for i in range(0,len(keys)):
+            dic[keys[i]] = values[i]
+
+        return dic
+
+
     table = pd.read_excel(get_path_xlsx())
-    col1 = list(map(to_lower, table[table.columns[1]].to_list()))
-    new_col1 = []
+    table = to_lower(table)
+    categories = extract_column(table,table.columns[1],'bebida')
+    days = ['segunda','terça','quarta','quinta','sexta','sábado','domingo']
+    json_data ={}
+    days_index = 0
+    for i in range(2,9):  
+        col = extract_column(table,table.columns[i],days[days_index])
+        list_coffe = create_dict(categories[0],col[0])
+        list_lunch = create_dict(categories[1],col[1])
+        list_dinner = create_dict(categories[2],col[2])
 
-    for i in range(0,len(col1)):
-        # Caso encontre uma célula da coluna com um valor diferente de 'NaN'
-        # remove o '\n' se houver e adiciona na nova coluna
-        if(col1[i] != 'nan'):
-            new_cel = col1[i].replace('\n',',') if (col1[i].find('\n') > 0) else col1[i]
-            new_col1.append(new_cel)
-        # Caso o indice esteja dentro do intervalo, verifica se
-        # o conteúdo da célula é igual a 'NaN' e se a célula anterior ou posterior
-        # é diferente de 'NaN'. Se sim, adiciona na nova coluna o '||'
-        elif( i > 0 and i < len(col1)-1):
-            if(col1[i] =='nan' and col1[i-1] != 'nan' or col1[i+1] != 'nan'):
-                new_col1.append('||')
+        json_data[col[0][0]] = {   
+            'cafe_da_manha':list_coffe,
+            'almoco':list_lunch,
+            'jantar':list_dinner
+        }
+        days_index+=1
 
-    # transforma a lista 'new_col1' em string para 'splitar' cada refeição
-    # em uma lista diferente
-    colection = str(',').join(new_col1).split('||')
-    colection = remove_empty_items(colection)
-    meals = []
-
-    for item in colection:
-        meals.append(item.split(','))
-
-    for item in meals:
-        item = remove_empty_items(item)
-    print(meals)
-
-unameless()
-
-
+    with open('./output_files/data.json', 'w') as f:
+        json.dump(json_data, f, indent=2)
+    
+create_json()

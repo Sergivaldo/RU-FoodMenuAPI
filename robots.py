@@ -18,11 +18,10 @@ def get_food_menu():
             page.click("img[alt='Cardápio']")
 
         download = download_info.value
-
         if(download.url.find('.xlsx') >= 0):
-            download.save_as("./output_files/"+download.url[51:])
+            download.save_as("./input_files/xlsx/"+download.url[51:])
         elif (download.url.find('.pdf') >= 0):
-            download.save_as("./input_files/"+download.url[51:])
+            download.save_as("./input_files/pdf/"+download.url[51:])
             pdf_to_excel()
         
         
@@ -37,7 +36,7 @@ def pdf_to_excel():
             page.click("a[id='pickfiles']")
             
         file_chooser = fc_info.value
-        file_chooser.set_files("./input_files/" + get_pdf_name())  
+        file_chooser.set_files("./input_files/pdf/" + get_pdf_name())  
         page.click("button[id='processTask']")
 
         with page.expect_download() as download_info:
@@ -46,10 +45,10 @@ def pdf_to_excel():
 
         download = download_info.value
         
-        download.save_as("./output_files/cardapio.xlsx")
+        download.save_as("./input_files/xlsx/cardapio.xlsx")
 
 def get_pdf_name():
-    files = pathlib.Path('./').glob('./input_files/*.pdf')
+    files = pathlib.Path('./').glob('./input_files/pdf/*.pdf')
     file = files.__next__()
     return file.name
 
@@ -58,4 +57,4 @@ def remove_files(extension):
     for file in files:
         file.unlink()
        
-get_food_menu()
+pdf_to_excel()
