@@ -57,4 +57,4 @@ def remove_files(extension):
     for file in files:
         file.unlink()
        
-pdf_to_excel()
+get_food_menu()

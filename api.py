@@ -17,7 +17,7 @@ def get_key(value,dic):
             return key
 
     raise KeyError
-    
+  
 @app.route('/')
 def all():
     response = get_json()
