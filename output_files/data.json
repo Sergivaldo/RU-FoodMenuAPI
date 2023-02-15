@@ -1,219 +1,219 @@
 {
   "segunda-feira": {
     "cafe_da_manha": {
-      "bebida": "suco de acerola ou caf\u00e9 ou caf\u00e9 com leite",
-      "p\u00e3o": "p\u00e3o",
-      "prote\u00edna": "frango refogado",
-      "raiz ou farinaceo": "cuscuz",
-      "fruta": "melancia",
-      "ovolactovegetariano": "omelete de legumes"
+      "bebida": "p\u00e3o",
+      "p\u00e3o": "carne com ervilha",
+      "prote\u00edna": "batata doce",
+      "raiz ou farin\u00e1ceo": "mam\u00e3o",
+      "fruta": "ervilha refogada com\nlegumes",
+      "ovolactovegetariano": "almo\u00e7o"
     },
     "almoco": {
       "acompanhamento 1": "arroz com a\u00e7afr\u00e3o",
       "acompanhamento 2": "feij\u00e3o carioquinha",
-      "guarni\u00e7\u00e3o": "macarr\u00e3o alho e \u00f3leo ",
-      "salada cozida": "mix de legumes\n(batata /chuchu)",
-      "salada crua": "acelga / rucula /tomate",
-      "prote\u00edna": "almondega ao molho sugo",
-      "op\u00e7\u00e3o": "frango assado",
-      "fruta": "laranja",
-      "ovolactovegetariano": "arroz integral\nfeij\u00e3o sem ptn\nalmondega de soja ao sugo  ",
-      "suco": "umbu"
+      "guarni\u00e7\u00e3o": "macarr\u00e3o ao molho",
+      "salada cozida": "legumes refogados\n(batata/chuchu)",
+      "salada crua": "mix de salada\n(acelga / beterraba ralada)",
+      "prote\u00edna": "f\u00edgado \u00e0 espanhola\n(azeitona e presunto)",
+      "op\u00e7\u00e3o": "fricass\u00ea de frango",
+      "fruta": "banana",
+      "ovolactovegetariano": "arroz integral\nfeij\u00e3o sem ptn animal\nfricass\u00ea de lentilha ao molho",
+      "suco": "tamarindo"
     },
     "jantar": {
-      "p\u00e3o": "p\u00e3o",
-      "bebida ": "suco de umbu ou caf\u00e9 ou caf\u00e9 com leite",
-      "raiz ou farin\u00e1ceo": "mingau de tapioca",
-      "prote\u00edna": "hot dog",
-      "sopa": "sopa de aipim com frango",
-      "ovolactovegetariano": "sopa de aipim com legumes",
-      "proteina ovolactovegetariano": "ervilha em gr\u00e3o refogada "
+      "jantar": "p\u00e3o",
+      "p\u00e3o": "suco de tamarindo ou caf\u00e9 ou\ncaf\u00e9 com leite",
+      "bebida": "aipim",
+      "raiz ou farin\u00e1ceo": "frango desfiado com milho",
+      "prote\u00edna": "sopa campestre",
+      "sopa": "creme de batata",
+      "vegetariano\novolactovegetariano": "gr\u00e3o de bico refogado"
     }
   },
   "ter\u00e7a-feira": {
     "cafe_da_manha": {
-      "bebida": "suco de frutas ou caf\u00e9 ou caf\u00e9 com leite",
+      "bebida": "suco de manga ou caf\u00e9 caf\u00e9\ncom leite",
       "p\u00e3o": "p\u00e3o",
-      "prote\u00edna": "ovos mexidos temperados",
-      "raiz ou farinaceo": "mingau de aveia",
+      "prote\u00edna": "ovos mexidos com oregano",
+      "raiz ou farin\u00e1ceo": "banana da terra",
       "fruta": "laranja",
-      "ovolactovegetariano": "ovos mexidos temperados"
+      "ovolactovegetariano": "ovos mexidos com oregano"
     },
     "almoco": {
-      "acompanhamento 1": "arroz branco",
-      "acompanhamento 2": "feij\u00e3o tropeiro carioca",
+      "acompanhamento 1": "arroz temperado",
+      "acompanhamento 2": "feij\u00e3o tropeiro",
       "guarni\u00e7\u00e3o": "pur\u00ea de batata",
-      "salada cozida": "legumes com salsa\n(cenoura/beterraba)",
-      "salada crua": "salada mix\npepino / repolho / abacaxi",
-      "prote\u00edna": "bife de carne",
-      "op\u00e7\u00e3o": "isca de frango com azeitonas",
-      "fruta": "melancia",
-      "ovolactovegetariano": "arroz integral\nfeij\u00e3o sem ptn \nlentilha com legumes ",
-      "suco": "caju"
+      "salada cozida": "legumes com oregano\n(abobora/beterraba)",
+      "salada crua": "repolho branco/ tomate /\nmanga",
+      "prote\u00edna": "bife suino ao molho",
+      "op\u00e7\u00e3o": "frango assado",
+      "fruta": "mel\u00e3o",
+      "ovolactovegetariano": "arroz integral\nfeij\u00e3o sem ptn animal\ncroquete de soja acebolado",
+      "suco": "frutas"
     },
     "jantar": {
-      "p\u00e3o": "p\u00e3o",
-      "bebida ": "suco de caju ou caf\u00e9 ou caf\u00e9 com leite",
-      "raiz ou farin\u00e1ceo": "cuscuz temperado",
-      "prote\u00edna": "frango desfiado com milho",
-      "sopa": "sopa de carne",
-      "ovolactovegetariano": "sopa de vegetais",
-      "proteina ovolactovegetariano": "hamburguer de gr\u00e3o de bico"
+      "jantar": "p\u00e3o",
+      "p\u00e3o": "suco de frutas ou caf\u00e9 ou\ncaf\u00e9 com leite",
+      "bebida": "farofa de cuscuz",
+      "raiz ou farin\u00e1ceo": "steak \u00e0 parmegiana",
+      "prote\u00edna": "sopa de carne",
+      "sopa": "sopa de vegetais",
+      "vegetariano\novolactovegetariano": "falafel com batata"
     }
   },
   "quarta-feira": {
     "cafe_da_manha": {
-      "bebida": "suco de umbu ou caf\u00e9 ou caf\u00e9 com leite",
+      "bebida": "suco de caju ou caf\u00e9 ou caf\u00e9 com\nleite",
       "p\u00e3o": "p\u00e3o",
-      "prote\u00edna": "carne moida com ervilha",
-      "raiz ou farinaceo": "aipim",
-      "fruta": "mam\u00e3o",
-      "ovolactovegetariano": "grao de bico com milho"
+      "prote\u00edna": "frango refogado com\nchamichurri",
+      "raiz ou farin\u00e1ceo": "aipim",
+      "fruta": "banana",
+      "ovolactovegetariano": "lentilha ao sugo com\nchamichurri"
     },
     "almoco": {
-      "acompanhamento 1": "arroz com ervilha",
+      "acompanhamento 1": "arroz branco",
       "acompanhamento 2": "feij\u00e3o de caldo",
-      "guarni\u00e7\u00e3o": "farofa de cuscuz ",
-      "salada cozida": "abobora com quiabo",
-      "salada crua": "acelga / tomate / cebola",
-      "prote\u00edna": "suino \u00e0 vinagrete",
-      "op\u00e7\u00e3o": "frango ao molho de cebola e oregano",
-      "fruta": "mel\u00e3o",
-      "ovolactovegetariano": "arroz integral\nfeij\u00e3o sem ptn\nbife de soja com tapioca acebolado",
-      "suco": "manga"
+      "guarni\u00e7\u00e3o": "farofa rica",
+      "salada cozida": "mix de legumes\n(cenoura/ vagem)",
+      "salada crua": "repolho roxo / pepino/tomate",
+      "prote\u00edna": "jardineira de carne",
+      "op\u00e7\u00e3o": "isca de frango acebolado",
+      "fruta": "mam\u00e3o",
+      "ovolactovegetariano": "arroz integral\nfeij\u00e3o sem ptn animal\nbobo de gr\u00e3o de bico",
+      "suco": "goiaba"
     },
     "jantar": {
-      "p\u00e3o": "p\u00e3o",
-      "bebida ": "suco de manga ou caf\u00e9 ou caf\u00e9 com leite",
-      "raiz ou farin\u00e1ceo": "batata doce",
-      "prote\u00edna": "ovos temperados",
+      "jantar": "p\u00e3o",
+      "p\u00e3o": "suco de umbu ou caf\u00e9 ou caf\u00e9\ncom leite",
+      "bebida": "batata doce",
+      "raiz ou farin\u00e1ceo": "carne ao molho com milho",
+      "prote\u00edna": "caldo de legumes",
       "sopa": "caldo de legumes",
-      "ovolactovegetariano": "caldo de legumes",
-      "proteina ovolactovegetariano": "ovos mexidos temperados "
+      "vegetariano\novolactovegetariano": "soja em gr\u00e3o com milho"
     }
   },
   "quinta-feira": {
     "cafe_da_manha": {
-      "bebida": "suco de frutas ou caf\u00e9 ou caf\u00e9 com leite",
+      "bebida": "suco de frutas ou caf\u00e9 ou caf\u00e9\ncom leite",
       "p\u00e3o": "p\u00e3o",
-      "prote\u00edna": "frango ao molho ",
-      "raiz ou farinaceo": "mingau de maisena",
-      "fruta": "melancia",
-      "ovolactovegetariano": "aveioca  de milho com ervilha   "
+      "prote\u00edna": "carne com azeitona",
+      "raiz ou farin\u00e1ceo": "mingau de tapioca",
+      "fruta": "mel\u00e3o",
+      "ovolactovegetariano": "crepioca com ervilha refogada"
     },
     "almoco": {
-      "acompanhamento 1": "arroz temperado",
-      "acompanhamento 2": "feij\u00e3o fradinho",
-      "guarni\u00e7\u00e3o": "macarr\u00e3o ao alho e \u00f3leo",
-      "salada cozida": "legumes com milho\n(abobrinha/cenoura)",
-      "salada crua": "acelga/ pepino / manga",
-      "prote\u00edna": "f\u00edgado ao molho shoyo",
-      "op\u00e7\u00e3o": "frango assado",
-      "fruta": "mam\u00e3o",
-      "ovolactovegetariano": "arroz integral\nfeij\u00e3o sem ptn\ntorta madalena               (lentilha com legumes) ",
+      "acompanhamento 1": "arroz com cebolinha",
+      "acompanhamento 2": "feij\u00e3o carioquinha",
+      "guarni\u00e7\u00e3o": "macarr\u00e3o ao alho e oleo",
+      "salada cozida": "legumes mix\n(beterraba/chuchu)",
+      "salada crua": "couve/ cenoura ralada /",
+      "prote\u00edna": "almondegas ao molho ros\u00e9",
+      "op\u00e7\u00e3o": "frango ao molho",
+      "fruta": "laranja",
+      "ovolactovegetariano": "arroz integral\nfeij\u00e3o sem ptn animal\nalmondegas de soja \u00e0\nvinagrete",
       "suco": "caju"
     },
     "jantar": {
-      "p\u00e3o": "p\u00e3o",
-      "bebida ": "suco de caju ou caf\u00e9 ou caf\u00e9 com leite",
-      "raiz ou farin\u00e1ceo": "cuscuz ",
-      "prote\u00edna": "carne refogada",
-      "sopa": "sopa de legumes com frango",
-      "ovolactovegetariano": "sopa de legumes ",
-      "proteina ovolactovegetariano": "croquetre de soja com couve "
+      "jantar": "p\u00e3o",
+      "p\u00e3o": "suco de caju ou caf\u00e9 ou caf\u00e9\ncom leite",
+      "bebida": "cuscuz",
+      "raiz ou farin\u00e1ceo": "hot dog",
+      "prote\u00edna": "sopa de frango",
+      "sopa": "sopa de legumes",
+      "vegetariano\novolactovegetariano": "frigideira de legumes"
     }
   },
   "sexta-feira": {
     "cafe_da_manha": {
-      "bebida": "suco de umbu ou caf\u00e9 ou caf\u00e9 com leite",
+      "bebida": "suco de manga ou caf\u00e9 ou\ncaf\u00e9 com leite",
       "p\u00e3o": "p\u00e3o",
-      "prote\u00edna": "ovos temperados",
-      "raiz ou farinaceo": "banana da terra",
+      "prote\u00edna": "ovos temperados com\nvinagrete",
+      "raiz ou farin\u00e1ceo": "cuscuz",
       "fruta": "mam\u00e3o",
-      "ovolactovegetariano": "ovos temperados"
+      "ovolactovegetariano": "ovos temperados com\nvinagrete"
     },
     "almoco": {
       "acompanhamento 1": "arroz branco",
-      "acompanhamento 2": "feij\u00e3o mulatinho",
-      "guarni\u00e7\u00e3o": "farofa de cenoura",
-      "salada cozida": "mix de legumes\n(batata/abobora)",
-      "salada crua": "tomate / couve",
-      "prote\u00edna": "feijoada",
-      "op\u00e7\u00e3o": "frango acebolado",
-      "fruta": "laranja",
-      "ovolactovegetariano": "arroz integral\nfeij\u00e3o sem ptn                      sufl\u00e9 de soja",
+      "acompanhamento 2": "feij\u00e3o fradinho",
+      "guarni\u00e7\u00e3o": "per\u00ea misto",
+      "salada cozida": "abobora com quiabo",
+      "salada crua": "acelga/ beterraba ralada /\ntomate",
+      "prote\u00edna": "mix baiano\ncarne / toscana",
+      "op\u00e7\u00e3o": "frango cozido",
+      "fruta": "mel\u00e3o",
+      "ovolactovegetariano": "arroz integral\nfarofa no dend\u00ea\nfeij\u00e3o sem ptn animal\nmoqueca de banana da terra\ncom ervilha",
       "suco": "frutas"
     },
     "jantar": {
-      "p\u00e3o": "p\u00e3o",
-      "bebida ": "suco de caj\u00fa ou caf\u00e9 ou caf\u00e9 com leite",
-      "raiz ou farin\u00e1ceo": "aipim",
-      "prote\u00edna": "hamburguer",
-      "sopa": "caldo de legumes",
-      "ovolactovegetariano": "caldo de legumes",
-      "proteina ovolactovegetariano": "gr\u00e3o de bico"
+      "jantar": "p\u00e3o",
+      "p\u00e3o": "suco de frutas ou caf\u00e9 ou\ncaf\u00e9 com leite",
+      "bebida": "mingau de aveia",
+      "raiz ou farin\u00e1ceo": "bolinha de carne acebolada",
+      "prote\u00edna": "caldo de aipim",
+      "sopa": "caldo de aipim",
+      "vegetariano\novolactovegetariano": "panquec\u00e3o de soja"
     }
   },
   "s\u00e1bado": {
     "cafe_da_manha": {
-      "bebida": "suco de goiaba ou caf\u00e9 ou caf\u00e9 com leite",
+      "bebida": "suco de umbu ou caf\u00e9 ou caf\u00e9\ncom leite",
       "p\u00e3o": "p\u00e3o",
       "prote\u00edna": "carne ao molho",
-      "raiz ou farinaceo": "cuscuz",
-      "fruta": "banana",
-      "ovolactovegetariano": "soja ao molho sugo"
+      "raiz ou farin\u00e1ceo": "batata doce",
+      "fruta": "abacaxi",
+      "ovolactovegetariano": "soja em gr\u00e3o ao molho sugo"
     },
     "almoco": {
-      "acompanhamento 1": "arroz com milho",
-      "acompanhamento 2": "feij\u00e3o carioca",
-      "guarni\u00e7\u00e3o": "macarr\u00e3o ao sugo",
-      "salada cozida": "legumes ao alho\n(cenoura/chuchu)",
-      "salada crua": "mix de salada\nrepolho/pepino",
-      "prote\u00edna": "croquete de carne",
-      "op\u00e7\u00e3o": "peixe \u00e0 moda baiana",
-      "fruta": "mam\u00e3o",
-      "ovolactovegetariano": "arroz integral\nfeij\u00e3o sem ptn\nbobo de gr\u00e3o de bico ",
-      "suco": "acerola"
+      "acompanhamento 1": "arroz com cenoura ralada",
+      "acompanhamento 2": "feij\u00e3o preto",
+      "guarni\u00e7\u00e3o": "pir\u00e3o",
+      "salada cozida": "legumes ao alho\n(abobrinha/cenoura)",
+      "salada crua": "repolho/ tomate/r\u00facula",
+      "prote\u00edna": "vaca atolada",
+      "op\u00e7\u00e3o": "bife de frango com queijo\nralado",
+      "fruta": "banana",
+      "ovolactovegetariano": "arroz integral\nfeij\u00e3o sem ptn animal\nensopado de lentilha com\nquiabo",
+      "suco": "tamarindo"
     },
     "jantar": {
-      "p\u00e3o": "p\u00e3o",
-      "bebida ": "suco de acerola ou caf\u00e9 ou caf\u00e9 com leite",
-      "raiz ou farin\u00e1ceo": "banana da terra",
-      "prote\u00edna": "frigideira de toscana c/ presunto",
-      "sopa": "sopa mix\n(carne e frango)",
-      "ovolactovegetariano": "sopa vegetariana\n(legumes c/ soja)",
-      "proteina ovolactovegetariano": "ovos com oregano"
+      "jantar": "p\u00e3o",
+      "p\u00e3o": "suco de tamarindo ou caf\u00e9 ou\ncaf\u00e9 com leite",
+      "bebida": "aipim",
+      "raiz ou farin\u00e1ceo": "panquec\u00e3o de frango",
+      "prote\u00edna": "caldo de feij\u00e3o",
+      "sopa": "caldo de feij\u00e3o",
+      "vegetariano\novolactovegetariano": "hamburguer de ervilha"
     }
   },
   "domingo": {
     "cafe_da_manha": {
-      "bebida": "suco de acerola ou caf\u00e9 ou caf\u00e9 com leite",
+      "bebida": "suco de frutas ou caf\u00e9 ou\ncaf\u00e9 com leite",
       "p\u00e3o": "p\u00e3o",
       "prote\u00edna": "frango desfiado com milho",
-      "raiz ou farinaceo": "batata doce",
-      "fruta": "mel\u00e3o",
-      "ovolactovegetariano": "omelete de milho / ervilha"
+      "raiz ou farin\u00e1ceo": "bolo",
+      "fruta": "laranja",
+      "ovolactovegetariano": "aveioca de legumes"
     },
     "almoco": {
-      "acompanhamento 1": "arroz com a\u00e7afr\u00e3o",
+      "acompanhamento 1": "arroz com ervilha",
       "acompanhamento 2": "feij\u00e3o de caldo",
-      "guarni\u00e7\u00e3o": "batata palha",
-      "salada cozida": "legumes refogados\n(abobrinha/ batata",
-      "salada crua": "  couve / tomate",
-      "prote\u00edna": "suino isca acebolado",
+      "guarni\u00e7\u00e3o": "macarr\u00e3o parafuso",
+      "salada cozida": "mix de legumes\n(beterraba/batata)",
+      "salada crua": "couve / pepino/acelga",
+      "prote\u00edna": "bolinho de carne",
       "op\u00e7\u00e3o": "estrogonofe de frango",
-      "fruta": "abacaxi",
-      "ovolactovegetariano": "arroz integral\nfeij\u00e3o sem ptn\nfrigideira de soja ",
-      "suco": "umbu"
+      "fruta": "melancia",
+      "ovolactovegetariano": "arroz integral\nfeij\u00e3o sem ptn animal\nbolinho de gr\u00e3o de bico com\ncouve",
+      "suco": "caju"
     },
     "jantar": {
-      "p\u00e3o": "p\u00e3o",
-      "bebida ": "suco de frutas ou caf\u00e9 ou caf\u00e9 com leite",
-      "raiz ou farin\u00e1ceo": "cuscuz",
-      "prote\u00edna": "carne ao molho",
-      "sopa": "caldo de feij\u00e3o",
-      "ovolactovegetariano": "caldo de feij\u00e3o",
-      "proteina ovolactovegetariano": "torta vegana com legumes "
+      "jantar": "p\u00e3o",
+      "p\u00e3o": "suco de caju ou caf\u00e9 ou caf\u00e9\ncom leite",
+      "bebida": "cuscuz recheado",
+      "raiz ou farin\u00e1ceo": "ovos mexidos",
+      "prote\u00edna": "sopa mix\n(carne e frango)",
+      "sopa": "sopa mix\n(carne e frango)",
+      "vegetariano\novolactovegetariano": "ovos mexidos"
     }
   }
 }

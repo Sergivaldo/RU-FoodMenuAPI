@@ -1,7 +1,4 @@
 import pathlib
-from importlib.metadata import files
-from importlib.resources import path
-from os import remove
 
 from playwright.sync_api import sync_playwright
 
@@ -15,7 +12,8 @@ def get_food_menu():
         browser = p.chromium.launch(headless=True)
         page = browser.new_page()
         page.goto(
-            "http://www.propaae.uefs.br/modules/conteudo/conteudo.php?conteudo=15")
+            "http://www.propaae.uefs.br/modules/conteudo/conteudo.php?conteudo=15"
+        )
 
         with page.expect_download() as download_info:
             page.click("img[alt='Cardápio']")
@@ -28,7 +26,7 @@ def get_food_menu():
 
 
 def pdf_to_excel():
-    if (get_pdf_name() != None):
+    if (get_pdf_name() is not None):
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=True)
             page = browser.new_page()
@@ -55,7 +53,7 @@ def get_pdf_name():
         files = pathlib.Path('./').glob('./input_files/pdf/*.pdf')
         file = files.__next__()
         return file.name
-    except:
+    except Exception:
         return None
 
 
@@ -64,9 +62,8 @@ def remove_files(extension):
         files = pathlib.Path('./').glob(f'**/*.{extension}')
         for file in files:
             file.unlink()
-    except:
+    except Exception:
         return None
 
 
-get_food_menu()
 pdf_to_excel()
